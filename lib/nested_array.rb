@@ -48,7 +48,7 @@ end
 
 def matrix_update(matrix, row, column, new_value)
  matrix[row][column] = new_value
- matrix[row][column]
+ return matrix[row][column]
  
  
   # Given any matrix (array of arrays), a row index and a column index, 
